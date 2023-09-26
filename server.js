@@ -5,7 +5,7 @@
 const express = require("express");
 const axios = require("axios");
 var bodyParser = require("body-parser");
-const path = require("path");
+// const path = require("path");
 const app = express();
 
 // Base URL for the API
@@ -15,7 +15,7 @@ const base_url = "http://localhost:5500/";
 //const base_url = "http://node41091-noderest.proen.app.ruk-com.cloud";
 
 // Set the template engine
-app.set("views", path.join(__dirname, "/public/views"));
+// app.set("views", path.join(__dirname, "/public/views"));
 app.set("view engine", "ejs");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -46,6 +46,7 @@ app.get("/book/:id", async (req, res) => {
 app.get("/create", (req, res) => {
   res.render("create");
 });
+
 
 app.post("/create", async (req, res) => {
   try {
