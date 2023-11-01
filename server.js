@@ -9,8 +9,8 @@ var bodyParser = require('body-parser');
 
 // Base URL for the API 
 //const base_url = "https://api.example.com"; 
-const base_url = "http://node50293-juthapong.proen.app.ruk-com.cloud";
-// const base_url = "http://10.104.11.44"; //run on ruk.com
+
+const base_url = "http://10.104.9.171"; //run on ruk.com
 // const base_url = "http://localhost:3000"; // localhost
 
 // Set the template engine 
