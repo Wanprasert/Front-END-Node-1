@@ -221,10 +221,10 @@ app.get('/createscore', (req, res) => {
 // });
 
 
-// app.listen(8080, () => { 
-//             console.log('Server started on port 8080'); 
-//             }); //ruk.com
+app.listen(8080, () => { 
+            console.log('Server started on port 8080'); 
+            }); //ruk.com
 
-app.listen(5500, () => { 
-                console.log('Server started on port 5500'); 
-                }); // localhost
+// app.listen(5500, () => { 
+//                 console.log('Server started on port 5500'); 
+//                 }); // localhost
